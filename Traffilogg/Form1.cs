@@ -85,6 +85,7 @@ namespace Traffilogg
             textBox1.Text = "";
             textBox1.Text +=    "Büntetések száma: " + counter + Environment.NewLine +
                                 "Büntetések összege: " + money + "$" + Environment.NewLine +
+                                "Ebből frakció részére: " + (money*.25).ToString("#.##") + "$" + Environment.NewLine +
                                 "Legmagasabb büntetés: " + maxmoney + "$" + Environment.NewLine +
                                 "Legmagasabb sebesség: " + maxspeed.ToString("#.##") + "KM/h" + Environment.NewLine +
                                 "Átlagos büntetés: " + ((double)money / counter).ToString("#.##") + "$" + Environment.NewLine +
